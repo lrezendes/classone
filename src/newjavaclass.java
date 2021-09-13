@@ -15,6 +15,9 @@ public class newjavaclass {
             }
             studentNames.add(userResponse);
         }
-System.out.println("All of your students in the class are below:");
+        System.out.println("All of your students in the class are below:");
+        for (var studentName : studentNames){
+            System.out.println(studentName);
+        }
     }
 }
